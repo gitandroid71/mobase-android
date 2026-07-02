@@ -54,14 +54,14 @@ android {
 }
 
 dependencies {
+    api(project(":purchases:api"))
+    api(project(":common"))
+
     // Analytics
     implementation(libs.amplitude)
     implementation(libs.appsflyer)
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
-
-    // Purchases
-    implementation(libs.android.billing)
 
     // Feature flags
     implementation(libs.amplitude.experiment)

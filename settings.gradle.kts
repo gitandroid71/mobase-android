@@ -25,3 +25,6 @@ dependencyResolutionManagement {
 rootProject.name = "Mobase"
 include(":app")
 include(":mobase")
+include(":common")
+include(":purchases:api")
+include(":purchases:google")

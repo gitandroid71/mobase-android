@@ -2,7 +2,6 @@ package dev.mobase.purchases.google
 
 import android.content.Context
 import dev.mobase.purchases.Purchases
-import dev.mobase.purchases.PurchasesConfig
 import dev.mobase.purchases.PurchasesFactory
 import dev.mobase.purchases.google.identifiers.DefaultAccountIdentifiersProvider
 

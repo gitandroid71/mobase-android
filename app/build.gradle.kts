@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(project(":mobase"))
+    implementation(project(":purchases:google"))
     implementation(libs.timber)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))

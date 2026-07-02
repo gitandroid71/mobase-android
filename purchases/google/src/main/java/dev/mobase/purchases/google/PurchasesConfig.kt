@@ -1,4 +1,4 @@
-package dev.mobase.purchases
+package dev.mobase.purchases.google
 
 data class PurchasesConfig(
     val userId: String?,

@@ -4,7 +4,7 @@ import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @OptIn(ExperimentalCoroutinesApi::class)
-internal fun <T> Deferred<T>.getOrNull(): T? {
+fun <T> Deferred<T>.getOrNull(): T? {
     return if (isCompleted) {
         try {
             getCompleted()
